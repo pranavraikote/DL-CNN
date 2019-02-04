@@ -4,15 +4,16 @@ Created on Sat Feb  2 01:47:30 2019
 
 @author: Pranav
 """
-
+#Import the modules
 import tensorflow as tf
-
 from tensorflow.examples.tutorials.mnist import input_data
 
+#Load the dataset
 mnsit = input_data.read_data_sets("MNSIT_data/", one_hot=True)
 num_input = 28*28*1
 num_classes = 10
 
+#Placeholder for placing the values in the network
 x_ = tf.placeholder("float", shape=[None, num_input], name='X')
 y_ = tf.placeholder("float", shape=[None, num_classes], name='Y')
 
