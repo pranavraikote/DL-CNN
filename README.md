@@ -9,9 +9,9 @@ Convolution Neural Network is a class of Deep Neural Networks which is mainly de
 # Applications 
 1) Face Recognition <br>
 2) Image Classification <br>
-2) Action Recognition <br>
-2) Human Pose Estimation <br>
-2) Document Analysis <br>
+3) Action Recognition <br>
+4) Human Pose Estimation <br>
+5) Document Analysis <br>
 
 
 # Pre-requisites
